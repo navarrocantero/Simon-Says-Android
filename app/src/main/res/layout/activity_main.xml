@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorBlack"
+   android:weightSum="4"
+  tools:context="com.naca.navarrocantero.simonSays.MainActivity">
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+      android:id="@+id/btn_one"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@color/colorBlue"
+      android:textSize="30sp"/>
+
+    <View
+      android:id="@+id/btn_two"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@color/colorRed"
+      android:textSize="30sp"/>
+
+  </LinearLayout>
+
+  <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+      android:id="@+id/btn_three"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@color/colorYellow"
+      android:textSize="30sp"/>
+
+    <View
+      android:id="@+id/btn_four"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_weight="1"
+      android:background="@color/colorGreen"
+      android:textSize="30sp"/>
+  </LinearLayout>
+</LinearLayout>
+
+
